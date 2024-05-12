@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* For WebKit browsers */
+/* Horizontal scrollbar */
+::-webkit-scrollbar:horizontal {
+  height: 18px; /* Height of the scrollbar */
+  background-color: rgb(152, 29, 29); /* Background color of the scrollbar */
+}
+
+/* Horizontal track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+}
+
+/* Horizontal handle */
+::-webkit-scrollbar-thumb {
+  background: #e90b0b; /* Color of the scrollbar handle */
+}
+
+/* Horizontal handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar handle on hover */
+}
+
+.home_outer_container {
+  width: calc(100vw - 300px);
+  overflow-y: hidden;
+}
+.hello_span {
+  padding: 1px 15px;
+  background-color: rgb(39, 39, 39, 0.7);
+  color: whitesmoke;
+}
+.singh_span {
+  width: 100px;
+  padding: 5px 15px;
+  background-color: rgb(39, 39, 39, 0.7);
+  color: whitesmoke;
+}
+.home_text_container {
+  font-family: sans-serif;
+  color: whitesmoke;
+  width: 800px;
+  height: 200px;
+  /* background-color: yellowgreen; */
+  padding: 20px;
+}
+.home_text_container * {
+  margin: 5px 0;
+}
+.home_text_container h1 {
+  font-size: 3rem;
+}
+.home_container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100vw - 300px);
+  height: 100vh;
+  background-color: aliceblue;
+  overflow: hidden;
+}
+.home_container img {
+  width: 100%;
+  height: 100vh;
+}
+.dummy_container {
+  background-color: rgba(0, 0, 0, 0.5);
+
+  /* background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.9)
+  ); */
+
+  /* background: transparent; */
+  backdrop-filter: blur(2px);
+  position: relative;
+
+  width: calc(100vw - 300px);
+  height: 100vh;
+  z-index: 2;
+
+  border-left: 5px solid rgb(44, 43, 43);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills_section_container {
+  width: 100%;
+  background-color: #fff7f1;
+  /* background-color: #fdf8f2; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.skills_description_container {
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  flex-direction: column;
+  /* background-color: wheat; */
+}
+.skills_cards_container {
+  width: 60%;
+  height: 100vh;
+  /* background-color: #fff7f1; */
+}
+#skills_heading {
+  /* background-color: yellow; */
+  padding: 20px 65px;
+  height: 35%;
+  /* margin-top: 20px; */
+}
+.skills_description_inner_container {
+  width: 100%;
+  /* background-color: yellowgreen; */
+  padding: 30px 50px;
+  /* margin-bottom: 20px; */
+}
+.skills_description_inner_container * {
+  margin: 10px;
+  color: rgb(75, 73, 73);
+}
+.skills_description_inner_container span {
+  background-color: rgb(75, 73, 73);
+  color: #fff7f1;
+  padding: 0 10px;
+}
+.skills_fotter_container {
+  width: 100%;
+  height: 30%;
+  /* background-color: green; */
+}
+.student_image {
+  width: 160px;
+  transform: translate(80%, 32%);
+  margin-bottom: 5px;
+}
+.project_heading_container {
+  background-color: #f5eee6;
+  /* border-top: 1px solid rgb(75, 73, 73); */
+  padding: 20px 65px;
+  padding-bottom: 5px;
+}
+.project_section_container {
+  width: 100%;
+  height: 82vh;
+  background-color: #f5eee6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+.projects_container {
+  width: 100%;
+  height: 90%;
+  background-color: #fff7f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 11px;
+}
+.project_heading_container {
+  height: 10%;
+  width: 100%;
+}
+.project_heading_container p {
+  margin: 10px 0;
+  line-height: 20px;
+}
+#pojectPhotoBanner {
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -210%);
+  width: 150px;
+  height: 150px;
+  z-index: -1;
+}
+.projects_container * {
+  margin: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.crausel {
+  width: 100%;
+  height: 70vh;
+  /* border: 1px solid rgb(55, 53, 53); */
+  /* transform: translate(-50%, -50%); */
+  /* background-color: forestgreen; */
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: yellowgreen; */
+  border-radius: 10px;
+  height: 800px;
+}
+.batchCard {
+  width: 1274px;
+  height: 460px;
+
+  background-color: #ede3e3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#left,
+#right {
+  margin: 0 5px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(39, 39, 39);
+  padding: 5px;
+}
+
+.button_right_container,
+.button_left_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: rgb(71, 71, 70, 0.5);
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+#left_arrow_image,
+#right_arrow_image {
+  width: 30px;
+}
+.scroll_track_container {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 5px;
+  background: linear-gradient(to right, rgb(71, 71, 70, 0.5) 50%, white 50%);
+  transition: all 0.5s ease; /* Only transition the background property */
+}
+
+.scroll_track_container.blue {
+  background: linear-gradient(to right, rgb(71, 71, 70, 0.5) 50%, white 50%);
+}
+
+.scroll_track_container.white {
+  background: linear-gradient(to right, white 50%, rgb(71, 71, 70, 0.5) 50%);
+}
+
+/* about section */
+
+.about_section {
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgb(190, 188, 188); */
+}
+
+/* Contact section */
+.contact_section {
+  width: 100%;
+  height: 100vh;
+  background: url("./images/contactBacground.jpg");
+}
+
+/* media queries */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Tablet landscape */
+  .contact_desc {
+    display: none;
+  }
+  .home_container {
+    width: calc(100vw - 250px);
+  }
+  .right_container {
+    width: calc(100vw - 250px);
+  }
+  .home_outer_container {
+    width: calc(100vw - 250px);
+  }
+}

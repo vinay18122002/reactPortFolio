@@ -1,0 +1,21 @@
+.progress_container_outer {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* background: conic-gradient(blue 0%, blue 70%, grey 70%, grey 100%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progress_container_inner {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progress_logo {
+  width: 40px;
+}
